@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="CumaPro logo">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="70%">
+      <stop offset="0%" stop-color="#1f8b56" />
+      <stop offset="100%" stop-color="#0f3b28" />
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fff2a6"/>
+      <stop offset="40%" stop-color="#f4c84a"/>
+      <stop offset="100%" stop-color="#b87d12"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="512" height="512" rx="64" fill="url(#bg)"/>
+
+  <circle cx="210" cy="220" r="145" fill="url(#gold)"/>
+  <circle cx="255" cy="185" r="145" fill="url(#bg)"/>
+
+  <rect x="270" y="145" width="24" height="152" rx="8" fill="url(#gold)"/>
+  <path d="M250 165 L282 95 L314 165 Z" fill="url(#gold)"/>
+  <rect x="252" y="165" width="60" height="20" rx="6" fill="url(#gold)"/>
+  <rect x="247" y="185" width="70" height="15" rx="6" fill="url(#gold)"/>
+  <circle cx="282" cy="80" r="8" fill="url(#gold)"/>
+  <path d="M282 67c7-11 19-11 24 0-6-3-13-2-18 3" fill="none" stroke="url(#gold)" stroke-width="5" stroke-linecap="round"/>
+
+  <text x="256" y="436" text-anchor="middle" font-size="70" font-family="Georgia, 'Times New Roman', serif" fill="url(#gold)">CumaPro</text>
+</svg>
